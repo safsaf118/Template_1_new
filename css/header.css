@@ -1,0 +1,59 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;   /* بنخلي العنصر يطلع فوق العنصر */
+    background: rgba(0, 0, 0, 0.6);
+}
+.header .logo {
+    width: 40%;
+}
+.header .logo img {
+    width: 20%;
+    margin-top: 15px;
+}
+.header .nav {
+    width: 60%;
+    text-align: right;
+}
+.header .nav > li > a {
+    color: var(--white-color);
+    font-size: 14px;
+    padding: 30px 15px ;
+    display: block;
+}
+/* clean code (grouping) */
+.header .nav > li > a.active:after,
+.header .nav > li > a:after {
+    content: "";
+    height: 3px;
+    margin-top: 2px;
+    background-color: var(--mainColor);
+    transition: width .5s;
+    display: block;
+}
+.header .nav > li > a.active:after {
+    width: 100%;
+}
+.header .nav > li > a:after {
+    width: 0%;
+}
+.header .nav > li > a:hover:after {
+    width: 100%;
+}
+.dropdown-menu {
+    background-color: var(--mainColor); 
+    width: 150px;
+    left: -50%;
+    top: 60px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s , visibility 0.5s ;
+}
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu a {
+    color: #fff;
+    padding: 10px;
+}

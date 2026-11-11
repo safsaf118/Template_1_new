@@ -1,0 +1,52 @@
+.team-item {
+    padding: 40px 20px ;
+    background-color: var(--pink-color);
+}
+.team-item.mg {
+    margin: 0 4%;
+}
+.team-img {
+    width: 90%;
+    margin: auto;
+}
+.team-overllay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: obacity 0.5s;
+}
+.team-overllay a {
+    width: 40px;
+    height: 40px;
+    background-color: var(--mainColor);
+    color: var(--white-color);
+    margin-left: auto;
+}
+.team-overllay a i {
+    line-height: 40px;
+}
+.team-item .pecture {
+    width: 100%;
+    transition: obacity 0.5s;
+}
+.team-name {
+    transition: color 0.5s;
+}
+.team-desc {
+    color: var(--gray-color);
+    transition: color 0.5s;
+}
+.team-item:hover .team-name {
+    color: white;
+}
+.team-item:hover .team-desc {
+    color: var(--mainColor);
+}
+.team-item:hover .team-overllay {
+    opacity: 1;
+    visibility: visible;
+}

@@ -1,0 +1,33 @@
+.person {
+    background-image: url(../Template_1/background3.jpg);
+    height: 500px;
+    background-attachment: fixed;
+}
+.person-content {
+    padding: 120px 0;
+    width: 80%;
+    margin: auto;
+}
+.person-item{
+    width: 50%;
+    color: var(--white-color);
+}
+.person-info {
+    padding: 10px 2px 40px 100px;
+}
+.person-item .pecture{
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;    
+}
+.person-name {
+    color: var(--white-color);
+    margin: 5px 0;
+}
+.person-skills {
+    color: var(--mainColor);
+}
+.person-desc {
+    color: var(--white-color);
+    font-size: 17px;
+}

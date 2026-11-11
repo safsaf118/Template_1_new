@@ -1,0 +1,22 @@
+.about-item {
+    border: 1px solid var(--pink-color);
+    padding: 50px 20px;
+}
+.about-item:hover .about-item-title {
+    color: var(--white-color);
+}
+.about-item .icon {
+    color: var(--mainColor);
+}
+.about-item.mg {
+    margin: 0 5%;
+}
+.about-item-title{
+    transition: color 0.5s;
+}
+.about-item-desc{
+    color: #8999;
+}
+.about-item-link{
+    color:var(--mainColor) ;
+}

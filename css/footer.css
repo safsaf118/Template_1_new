@@ -1,0 +1,27 @@
+.footer {
+    background: #1c1d21 ;
+    padding: 60px 0;
+}
+.footer-links {
+    margin: 30px 0;
+}
+.footer-links li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: var(--mainColor);
+    color: var(--white-color);
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.footer-links .icon {
+    line-height: 50px;
+}
+.footer-desc {
+    color: var(--gray-color);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.footer-desc a {
+    color: var(--mainColor);
+}

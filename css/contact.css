@@ -1,0 +1,40 @@
+.contact {
+    background: var(--white-color);
+}
+.contact-item {
+    margin-bottom: 40px;
+}
+.contact-item.mg {
+    margin: 0 5%;
+}
+.contact-item .icon {
+    color: var(--mainColor);
+}
+.contact-name {
+    margin: 15px 0;
+}
+.contact-desc {
+    color:var(--gray-color);
+}
+.contact-form {
+    padding: 0 200px;
+} 
+.contact-input{
+    padding: 5px 231px 5px 0;
+    background: #f8f8f8;
+    border: none;
+}
+.contact-input.one {
+    margin-right: 12px;
+}
+.contact-input.mg {
+    margin: 15px 0;
+    padding-right: 80%;
+}
+.contact-submit {
+    margin: 20px 0 0 560px;
+    background: var(--mainColor);
+    color: var(--white-color);
+    padding: 10px 30px;
+    border: none;
+}

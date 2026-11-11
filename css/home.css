@@ -1,0 +1,32 @@
+.home {
+    height: 100vh ;
+    background-image: url(../Template_1/background1.jpg);
+    background-size: cover; /*css 3*/
+}
+.home-content {
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--white-color);
+}
+.home .title {
+    font-size: 3.5rem;
+}
+.home-desc {
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+.home .btn {
+    min-width: 160px;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn-learn {
+    background-color: var(--mainColor);
+    color: var(--white-color);
+    margin-left: 10px;
+}

@@ -1,0 +1,46 @@
+.price-item {
+    border: 1px solid #e8e8e8;
+    padding: 40px 15px;
+}
+.price-item.mg {
+    margin: 0 5%;
+}
+.price-title {
+    text-transform:uppercase;
+    color: var(--gray-color);
+    transition: color 0.5s;
+}
+.price-circle {
+    width: 130px;
+    height: 130px;
+    padding: 20px 0;
+    margin: 20px auto;
+    border: 2px solid var(--mainColor);
+    border-radius: 50%;
+    transition: color 0.5s;
+}
+.price-circle .prices {
+    font-size: 50px;
+}
+.price-month {
+    text-transform:uppercase;
+    font-weight: bold;
+}
+.price-list {
+    margin-bottom: 40px;
+}
+.price-desc {
+    color: var(--gray-color);
+}
+.price-link {
+    border: 2px solid var(--mainColor);
+    color: var(--mainColor);
+    padding: 10px 30px;
+    margin: 20px;
+}
+.price-item:hover .price-circle {
+    color: var(--white-color);
+}
+.price-item:hover .price-title {
+    color: var(--mainColor);
+}

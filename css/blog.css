@@ -1,0 +1,41 @@
+
+.blog-item {
+    background: var(--white-color);
+}
+.blog-item.mg {
+    margin: 0 5%;
+}
+.blog-img img {
+    width: 100%;
+}
+.blog-info{
+    padding: 20px;
+}
+.blog-list {
+    margin: 10px 0;
+}
+.blog-list li {
+    margin: 0 5px;
+}
+.blog-list .icon{
+    color: var(--mainColor);
+}
+.blog-title {
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 25px;
+}
+.blog-desc{
+    color: var(--gray-color);
+
+    font-size: 17px;
+}
+.blog-link {
+    color: var(--mainColor);
+}
+.blog-list li :hover {
+    transform: translateY(-15px);
+}
+.hover-opacity:hover {
+    transform: translateY(-15px);
+}

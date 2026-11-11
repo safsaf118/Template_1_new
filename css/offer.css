@@ -1,0 +1,21 @@
+.offer-item {
+    border: 1px solid #e8e8e8;
+    padding: 30px 15px 30px 70px;
+}
+.offer-item.mg {
+    margin: 0 5%;
+}
+.offer-item-title {
+    transition: color 0.5s;
+}
+.offer-item .icon{
+    color: var(--mainColor);
+    top: 25px;
+    left: 25px;
+}
+.offer-item-desc {
+    color: #8999;
+}
+.offer-item:hover .offer-item-title{
+    color: var(--white-color);
+}
